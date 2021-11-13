@@ -20,9 +20,10 @@ public class MatrixDiagonalSum {
         for(int i = 0; i < mat.length; i++){
             sum += mat[i][mat.length- i - 1];
         }
+        //if column  = odd then sum of diagonals - middle element
         if(mat.length % 2 != 0){
             sum -= mat[mat.length/2][mat.length/2];
-        }
+        }// if column = even then it will return the sum of diagonal(i.e. it will return sum)
         return sum;
     }
 }
