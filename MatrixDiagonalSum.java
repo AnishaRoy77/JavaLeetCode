@@ -1,6 +1,6 @@
 //Problem link : https://leetcode.com/problems/matrix-diagonal-sum/
 
-import java.util.Scanner;
+import java.util.Arrays;
 
 public class MatrixDiagonalSum {
     public static void main(String[] args) {
